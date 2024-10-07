@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "build",
+			"command": "nvcc",
+			"args": [
+				"-g", 
+				"-o", 
+				"./bin/test.exe", 
+				"chapter4/julia_gpu.cu", 
+				"--include-path", 
+				"D:/software/OpenCV/opencv/opencv/build/include",
+				"--library",
+				"D:/software/OpenCV/opencv/opencv/build/x64/vc16/lib/opencv_world4100"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
