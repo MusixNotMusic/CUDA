@@ -9,7 +9,7 @@
 				"-g", 
 				"-o", 
 				"./bin/test.exe", 
-				"chapter4/julia_gpu.cu", 
+				"chapter5/gpu_bitmap.cu", 
 				"--include-path", 
 				"D:/software/OpenCV/opencv/opencv/build/include",
 				"--library",
