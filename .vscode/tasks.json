@@ -8,8 +8,8 @@
 			"args": [
 				"-g", 
 				"-o", 
-				"./bin/test.exe", 
-				"chapter5/gpu_bitmap.cu", 
+				"./bin/test.exe",
+				"chapter10/basic_double_stream_correct.cu", 
 				"--include-path", 
 				"D:/software/OpenCV/opencv/opencv/build/include",
 				"--library",
